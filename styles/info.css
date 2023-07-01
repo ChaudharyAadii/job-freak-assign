@@ -1,0 +1,40 @@
+#heading {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  text-decoration: double;
+  margin-top: 40px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.info p {
+  font-size: larger;
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.main1 {
+  /* display: flex; */
+  /* justify-content: center; */
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 768px) {
+  .main1 {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main1 {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+
+  .info p {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+}

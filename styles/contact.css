@@ -1,0 +1,73 @@
+.image {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-left: 200px;
+  }
+  
+  .text {
+    margin-right: 10%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #contact {
+    background: -webkit-linear-gradient(rgb(255, 255, 255), #105a97);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .myUl {
+    display: inline-block;
+    text-align: left;
+    color: #000000;
+    margin-left: 40px;
+  }
+  
+  .myUl li {
+    margin-top: 50px;
+    font-size: large;
+  }
+  
+  .whoAmI {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border-radius: 30px;
+    /* padding-right: 100px; */
+    margin-left: 100px;
+    width: 300px;
+    height: auto;
+    border-style: solid;
+    border-color: #022439;
+    border-width: 5px;
+    
+  }
+  
+  img:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  }
+  
+  li a {
+    margin-right: 20px;
+  }
+  
+  @media screen and (max-width: 500px) {
+  
+    .text,
+    .myUl{
+      width: 70%;
+    }
+    .whoAmI,
+    .image{
+      margin-left:50px;
+      width: 70%;
+      margin-top: 10px;
+    }
+    .text{
+      margin-left: 40px;
+    }
+  }
